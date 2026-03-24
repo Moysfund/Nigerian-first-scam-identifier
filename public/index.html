@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nigerian Scam Verification</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Scam Verification & Reporting Platform</h1>
+
+  <section>
+    <h2>Search Vendor</h2>
+    <input id="searchInput" placeholder="Enter phone, bank account, or social handle">
+    <button onclick="searchVendor()">Search</button>
+    <div id="searchResults"></div>
+  </section>
+
+  <section>
+    <h2>Report a Scam</h2>
+    <input id="phone" placeholder="Phone number"><br>
+    <input id="bankAccount" placeholder="Bank account"><br>
+    <input id="socialHandle" placeholder="Social media handle"><br>
+    <textarea id="description" placeholder="Describe the incident"></textarea><br>
+    <button onclick="submitReport()">Submit Report</button>
+    <div id="reportStatus"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
