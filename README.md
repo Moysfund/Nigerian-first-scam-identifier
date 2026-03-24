@@ -1,0 +1,1 @@
+# Nigerian-first-scam-identifier
